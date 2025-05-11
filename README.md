@@ -1,4 +1,4 @@
-# [Lorena & Jose, Generación de Imágenes con SDEs y Procesos de Difusión]
+# Lorena & Jose, Generación de Imágenes con SDEs y Procesos de Difusión
 
 ## Visión General
 
