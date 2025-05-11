@@ -1,4 +1,4 @@
-# [Tu Nombre de Proyecto Aquí, e.g., Generación de Imágenes con SDEs y Procesos de Difusión]
+# [Lorena & Jose, Generación de Imágenes con SDEs y Procesos de Difusión]
 
 ## Visión General
 
