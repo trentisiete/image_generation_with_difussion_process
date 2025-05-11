@@ -91,17 +91,17 @@ El repositorio está organizado en los siguientes directorios principales:
     ```bash
     pip install -r requirements.txt
     ```
-    *(Deberás crear un archivo `requirements.txt` con todas las librerías y sus versiones, e.g., `torch==X.Y.Z`, `torchvision==A.B.C`, `numpy`, etc.)*
+
 
 ### Conjuntos de Datos
 
 * **CIFAR-10:** Se descarga automáticamente a través de `torchvision.datasets.CIFAR10`.
 * **MNIST:** Se descarga automáticamente a través de `torchvision.datasets.MNIST`.
-* (Si usas otros datasets, indica cómo obtenerlos).
+
 
 ### Modelos Pre-entrenados
 
-Se proporcionan modelos de _score_ y clasificadores pre-entrenados para facilitar la experimentación sin largos tiempos de entrenamiento. Estos se encuentran en el directorio `checkpoints/` o pueden ser descargados desde [Enlace a tus modelos pre-entrenados, si los alojas externamente]. Los cuadernos de Jupyter están configurados para cargar estos modelos por defecto.
+Se proporcionan modelos de _score_ y clasificadores pre-entrenados para facilitar la experimentación sin largos tiempos de entrenamiento. Estos se encuentran en el directorio `checkpoints/`. Los cuadernos de Jupyter están configurados para cargar estos modelos por defecto.
 
 ## Uso
 
@@ -169,7 +169,6 @@ La forma principal de interactuar con el proyecto es a través de los cuadernos 
 
 ## Resultados de Ejemplo
 
-(Esta sección es opcional para el README, puedes enlazar a la memoria o a los notebooks)
 
 Las experimentaciones indican (para CIFAR-10):
 * El modelo **SubVP-SDE Lineal** tiende a ofrecer los mejores resultados en métricas perceptuales como FID e IS.
